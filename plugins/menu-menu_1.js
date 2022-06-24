@@ -67,15 +67,15 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 - 𝙼𝙳
+║   Bot-✨JonathanCL✨
 ║╰═─═─═─═─══╯
 ┠╮
-║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
+║- 𝙷𝙾𝙻𝙰 Insano! @${m.sender.split("@")[0]}
 ║- 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ╿- 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 ╠╯               
 ╠═─═─ • ⏄ • ─═─═╮
-║    *ＣＯＭＡＮＤＯＳ*
+║    *COMANDOS INSANOS*
 ╠═─═─ • ⏄ • ─═─═╯
 ║
 ╰╮
@@ -91,14 +91,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 10╠ ${usedPrefix}join
 11╠ ${usedPrefix}mates
 12╠ ${usedPrefix}ppt 
-13╠ ${usedPrefix}prostituto 
-14╠ ${usedPrefix}prostituta 
-15╠ ${usedPrefix}gay2 
-16╠ ${usedPrefix}lesbiana 
-17╠ ${usedPrefix}pajero 
-18╠ ${usedPrefix}pajera 
-19╠ ${usedPrefix}puto 
-20╠ ${usedPrefix}puta 
 21╠ ${usedPrefix}manco 
 22╠ ${usedPrefix}manca 
 23╠ ${usedPrefix}rata 
@@ -215,38 +207,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 133╠ ${usedPrefix}sagiri
 134╠ ${usedPrefix}sasuke
 135╠ ${usedPrefix}sakura
-136╠ ${usedPrefix}cosplay
-137╠ ${usedPrefix}pack
-138╠ ${usedPrefix}pack2
-139╠ ${usedPrefix}pack3
-140╠ ${usedPrefix}videoxxx
-141╠ ${usedPrefix}tetas
-142╠ ${usedPrefix}booty
-143╠ ${usedPrefix}ecchi
-144╠ ${usedPrefix}furro
-145╠ ${usedPrefix}imagenlesbians
-146╠ ${usedPrefix}panties
-147╠ ${usedPrefix}pene
-148╠ ${usedPrefix}porno
-149╠ ${usedPrefix}porno2
-150╠ ${usedPrefix}randomxxx
-151╠ ${usedPrefix}pechos
-152╠ ${usedPrefix}yaoi
-153╠ ${usedPrefix}yaoi2
-154╠ ${usedPrefix}yuri
-155╠ ${usedPrefix}yuri2
-156╠ ${usedPrefix}trapito
-157╠ ${usedPrefix}hentai
-158╠ ${usedPrefix}pies
-159╠ ${usedPrefix}nsfwloli
-160╠ ${usedPrefix}nsfworgy
-161╠ ${usedPrefix}nsfwfoot
-162╠ ${usedPrefix}nsfwass
-163╠ ${usedPrefix}nsfwbdsm
-164╠ ${usedPrefix}nsfwcum
-165╠ ${usedPrefix}nsfwero
-166╠ ${usedPrefix}nsfwfemdom
-167╠ ${usedPrefix}nsfwglass
 168╠ ${usedPrefix}bass
 169╠ ${usedPrefix}blown
 170╠ ${usedPrefix}deep
@@ -311,7 +271,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 229╠ ${usedPrefix}stickermarker
 230╠ ${usedPrefix}stickerfilter
 232╠ ${usedPrefix}menucompleto
-233╠ ${usedPrefix}menuaudios
 234╠ ${usedPrefix}menu2
 235╠ ${usedPrefix}menu3
 236╠ ${usedPrefix}playlist
@@ -342,8 +301,6 @@ const owner = "5219992095479@s.whatsapp.net"
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
-{buttonId: `#donar`, buttonText: {displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮'}, type: 1},
-{buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
 {buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
 let buttonMessage = {
 document: imagen1, 
