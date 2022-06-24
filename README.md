@@ -1,13 +1,12 @@
 # ` -BOT INSANO- `
 
-### `—◉  DUDAS SOBRE EL BOT?, CONTACTAME `
+### `  DUDAS SOBRE EL BOT?, CONTACTAME `
 <a href="http://wa.me/5218992973056" target="blank"><img src="https://img.shields.io/badge/Jonathan_CL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-> NO BOT
 
-### `—◉  LETRA DEL BOT `
+### `  LETRA DEL BOT `
 - PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
-### `—◉ ACTIVAR EN TERMUX `
+### ` ACTIVAR EN TERMUX `
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd
@@ -27,7 +26,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ ACTIVAR EN CASO DE DETENERSE `
+### ` ACTIVAR EN CASO DE DETENERSE `
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -35,7 +34,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ OBTENER OTRO CODIGO QR `
+### ` OBTENER OTRO CODIGO QR `
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -44,7 +43,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### `—◉ 📝 NOTAS 📝`
+### `  NOTAS `
 ```bash
 - ES RECOMENDABLE LEER TODO EL MENU Y VER EL FUNCIONAMIENTO DE CADA UNO DE LOS COMANDOS
 - NO MODIFIQUES NADA QUE NO SEPAS PARA QUE ES, PARA EVITAR PROBLEMAS O ERRORES
@@ -61,7 +60,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 
-
+CREDITOS:
 ## `EDITOR Y PORPIETARIO DEL BOT` 
 [![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://github.com/BrunoSobrino/) 
 
