@@ -45,6 +45,7 @@ let str = `
 ° ඬ⃟🔊 _UwU_
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
+° ඬ⃟🔊 _waza_
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
