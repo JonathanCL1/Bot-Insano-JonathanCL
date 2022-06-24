@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['5219992095479', '👑 Mystic - Creador 👑', true],
   ['5219991402134', '🤖 Mystic - Bot 🤖', true],
-  ['5219996125657']
+  ['5218992973056', '✨ JonathanCL - Edicion ✨', true],
 ] // Cambia los numero que quieras
 global.mods = [] 
 global.prems = [] 
@@ -61,7 +61,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.author = '★ Jonathan CL ★'
 
 global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
 global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
