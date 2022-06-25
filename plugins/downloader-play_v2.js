@@ -1,40 +1,33 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-let yts = require('yt-search')
-let fetch = require('node-fetch')
-const { servers, yta, ytv } = require('../lib/y2mate')
-let handler = async (m, { conn, command, text }) => {
-  if (!text) throw '*📌 Escriba el nombre/título del video o audio a bucar*\n\n*Ejemplo:*\n*#play Billie Eilish - Bellyache*'
-  let results = await yts(text)
-  m.reply('🔁 *Descargando...*\n\n*❰ ❗ ❱ Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
-  let vid = results.all.find(video => video.seconds < 3600)
-  if (!vid) throw '*Video/Audio No encontrado* '
-  let isVideo = /2$/.test(command)
-  let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
-  //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
-  conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-*🪄 ️Reproductor por Jonathan 🪄*
-💗 *${title}*
-9:99 ━❍──────── -9:99
-↻     ⊲  Ⅱ  ⊳     ↺
-VOLUME: ▁▂▃▄▅▆▇ 100%
-*🎈 Tamaño del archivo:* ${filesizeF}
-*🎁 Aguarde un momento en lo que envío su audio/video*
-`.trim(), m)
-  let _thumb = {}
-  try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
-  catch (e) { }
-  conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*🎈 Título:* ${title}
-*🎁 Tamaño del archivo:* ${filesizeF}
-`.trim(), m, false, _thumb || {})
-}
+import fs from 'fs'
+import fetch from 'node-fetch'
+let handler = async (m, {command, conn, text}) => {
+if (!text) throw `[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙾 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:\n#play.1 Good Feeling - Flo Rida*`
+try {
+if (command == 'play.1') {
+conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: '𝚁𝙴𝙿𝚁𝙾𝙳𝚄𝙲𝚃𝙾𝚁 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾',
+body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',         
+previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
+sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
+let res = await fetch("https://my-api-bice.vercel.app/api/ytplay?apikey=nktesla&q="+text)
+let json = await res.json()
+conn.sendFile(m.chat, json.descarga, 'error.mp3', null, m, false, { mimetype: 'audio/mp4' })}
+if (command == 'play.2') {
+conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ...⏳_*`, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
+title: '𝚁𝙴𝙿𝚁𝙾𝙳𝚄𝙲𝚃𝙾𝚁 𝙳𝙴 𝚅𝙸𝙳𝙴𝙾',
+body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',         
+previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
+sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
+let res = await fetch("https://api.lolhuman.xyz/api/ytplay2?apikey=9b817532fadff8fc7cb86862&query="+text)
+let json = await res.json()
+conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, m)} 
+}catch(e){
+m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+console.log(e)
+}}
 handler.help = ['play.1' , 'play.2'].map(v => v + ' <texto>')
 handler.tags = ['downloader']
 handler.command = ['play.1', 'play.2']
 export default handler
-
-handler.exp = 100
-handler.registrar = false
-handler.limit = false
-
-module.exports = handler
