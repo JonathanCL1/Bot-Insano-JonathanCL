@@ -24,8 +24,8 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 var effects = [
   {
-    "title": "3d-deep-sea-metal",
-    "url": "https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html"
+    "title": "Sanvalentin",
+    "url": "https://textpro.me/create-neon-light-on-brick-wall-online-1062.html"
   },
   {
     "title": "American-flag-3D",
