@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /turi ip ip ip|Turi ip ip ip|turiipipip|turiip|turiipipip/i
+handler.customPrefix = /Turi ip ip ip/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
