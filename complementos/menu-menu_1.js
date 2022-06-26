@@ -66,7 +66,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-let texto1 = `*ミ 💖 𝙷𝙾𝙻𝙰 ✨ $ { nombre } ✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝙱𝙾𝚃-𝙸𝙽𝚂𝙰𝙽𝙾-𝙹𝙾𝙽𝙰𝚃𝙷𝙰𝙽𝙲𝙻 💖 彡*
+let texto1 = ` *ミ 💖 𝙷𝙾𝙻𝙰 ✨ $ { nombre } ✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝙱𝙾𝚃-𝙸𝙽𝚂𝙰𝙽𝙾-𝙹𝙾𝙽𝙰𝚃𝙷𝙰𝙽𝙲𝙻 💖 彡*
 *📅 𝙵𝙴𝙲𝙷𝙰: ${ semana } , ${ fecha } *
 * 📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${ tiempo de actividad } *
 *📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${ rtotalreg } *
@@ -348,7 +348,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _ ${ usedPrefix } update_
 ° ඬ⃟👑 _ ${ usedPrefix } addprem *<@etiqueta>*_
 ° ඬ⃟👑 _ ${ usedPrefix } delprem *<@etiqueta>*_
-° ඬ⃟👑 _ ${ usedPrefix } listprem_
+° ඬ⃟👑 _ ${ usedPrefix } listprem_ '
 
 const fake = { quoted: {
 key : {
