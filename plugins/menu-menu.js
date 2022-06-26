@@ -121,26 +121,28 @@ let str = `
 
 *<𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊/>*
 
-° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
-° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
-° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
-° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
+° ඬ⃟👻 _${usedPrefix}facebook *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}instagram *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}mediafire *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}instagram *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}gitclone *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}gdrive *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}tiktok *<enlace / link / url>*_
+┣ ඬ⃟👻 _${usedPrefix}play *[texto]*_
+┣ ඬ⃟👻 _${usedPrefix}play2 *[texto]*_
+° ඬ⃟👻 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+° ඬ⃟👻 _${usedPrefix}spotify *<texto>*_
+° ඬ⃟👻 _${usedPrefix}imagen *<texto>*_
+° ඬ⃟👻 _${usedPrefix}pinteret *<texto>*_
+° ඬ⃟👻 _${usedPrefix}wallpaper *<texto>*_
+° ඬ⃟👻 _${usedPrefix}wallpaper2 *<texto>*_
+° ඬ⃟👻 _${usedPrefix}pptiktok *<nombre de usuario>*_
+° ඬ⃟👻 _${usedPrefix}igstalk *<nombre de usuario>*_
+° ඬ⃟👻 _${usedPrefix}igstory *<nombre de usuario>*_
+° ඬ⃟👻 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
 
 *<𝔾ℝ𝕌ℙ𝕆𝕊/>* 
 
