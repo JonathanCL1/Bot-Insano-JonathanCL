@@ -128,8 +128,8 @@ let str = `
 ° ඬ⃟👻 _${usedPrefix}gitclone *<enlace / link / url>*_
 ° ඬ⃟👻 _${usedPrefix}gdrive *<enlace / link / url>*_
 ° ඬ⃟👻 _${usedPrefix}tiktok *<enlace / link / url>*_
-┣ ඬ⃟👻 _${usedPrefix}play *[texto]*_
-┣ ඬ⃟👻 _${usedPrefix}play2 *[texto]*_
+° ඬ⃟👻 _${usedPrefix}play *<texto>*_
+° ඬ⃟👻 _${usedPrefix}play2 *<texto>*_
 ° ඬ⃟👻 _${usedPrefix}ytmp3 *<enlace / link / url>*_
 ° ඬ⃟👻 _${usedPrefix}ytmp4 *<enlace / link / url>*_
 ° ඬ⃟👻 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
