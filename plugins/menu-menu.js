@@ -277,6 +277,7 @@ let str = `
 _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 
 ° ඬ⃟🔊 _Turi ip ip ip_
+° ඬ⃟🔊 _wenamechinasama_
 ° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ° ඬ⃟🔊 _Te diagnostico con gay_
 ° ඬ⃟🔊 _A nadie le importa_
