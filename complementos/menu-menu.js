@@ -63,7 +63,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝙱𝙾𝚃-𝙸𝙽𝚂𝙰𝙽𝙾-𝙹𝙾𝙽𝙰𝚃𝙷𝙰𝙽𝙲𝙻 💖彡*
+*ミ💖 𝙷𝙾𝙻𝙰 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴 𝙼𝚈𝚂𝚃𝙸𝙲 - 𝙱𝙾𝚃 💖彡*
 
 *📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 *📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
@@ -71,9 +71,14 @@ let str = `
 
 *<𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆ℕ 𝔻𝔼𝕃 𝔹𝕆𝕋/>*
 
-*𝙱𝙾𝚃-𝙸𝙽𝚂𝙰𝙽𝙾-𝙹𝙾𝙽𝙰𝚃𝙷𝙰𝙽𝙲𝙻 💖彡*
-
-
+° ඬ ⃟ 💟 _${usedPrefix}grupos_
+° ඬ ⃟ 💟 _${usedPrefix}estado_
+° ඬ ⃟ 💟 _${usedPrefix}infobot_
+° ඬ ⃟ 💟 _${usedPrefix}donar_
+° ඬ ⃟ 💟 _${usedPrefix}grouplist_
+° ඬ ⃟ 💟 _${usedPrefix}owner_
+° ඬ ⃟ 💟 _${usedPrefix}script_
+° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
 
@@ -83,6 +88,14 @@ let str = `
 
 ° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
+° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
@@ -121,28 +134,34 @@ let str = `
 
 *<𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊/>*
 
-° ඬ⃟👻 _${usedPrefix}facebook *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}mediafire *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}instagram *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}gitclone *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}gdrive *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}tiktok *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}play *<texto>*_
-° ඬ⃟👻 _${usedPrefix}play2 *<texto>*_
-° ඬ⃟👻 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟👻 _${usedPrefix}spotify *<texto>*_
-° ඬ⃟👻 _${usedPrefix}imagen *<texto>*_
-° ඬ⃟👻 _${usedPrefix}pinteret *<texto>*_
-° ඬ⃟👻 _${usedPrefix}wallpaper *<texto>*_
-° ඬ⃟👻 _${usedPrefix}wallpaper2 *<texto>*_
-° ඬ⃟👻 _${usedPrefix}pptiktok *<nombre de usuario>*_
-° ඬ⃟👻 _${usedPrefix}igstalk *<nombre de usuario>*_
-° ඬ⃟👻 _${usedPrefix}igstory *<nombre de usuario>*_
-° ඬ⃟👻 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}play *<texto>*_
+° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
+° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
+° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
+° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
+° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
+° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
+° ඬ⃟📥 _${usedPrefix}wallpaper *<texto>*_
+° ඬ⃟📥 _${usedPrefix}wallpaper2 *<texto>*_
+° ඬ⃟📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}igstalk *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}igstory *<nombre de usuario>*_
+° ඬ⃟📥 _${usedPrefix}tiktokstalk *<nombre de usuario>*_
 
 *<𝔾ℝ𝕌ℙ𝕆𝕊/>* 
 
@@ -232,6 +251,39 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}sakura_
 ° ඬ⃟👾 _${usedPrefix}cosplay_
 
+*<ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠/>*
+
+° ඬ⃟🔞 _${usedPrefix}pack_
+° ඬ⃟🔞 _${usedPrefix}pack2_
+° ඬ⃟🔞 _${usedPrefix}pack3_
+° ඬ⃟🔞 _${usedPrefix}videoxxx_
+° ඬ⃟🔞 _${usedPrefix}tetas_
+° ඬ⃟🔞 _${usedPrefix}booty_
+° ඬ⃟🔞 _${usedPrefix}ecchi_
+° ඬ⃟🔞 _${usedPrefix}furro_
+° ඬ⃟🔞 _${usedPrefix}imagenlesbians_
+° ඬ⃟🔞 _${usedPrefix}panties_
+° ඬ⃟🔞 _${usedPrefix}pene_
+° ඬ⃟🔞 _${usedPrefix}porno_
+° ඬ⃟🔞 _${usedPrefix}porno2_
+° ඬ⃟🔞 _${usedPrefix}randomxxx_
+° ඬ⃟🔞 _${usedPrefix}pechos_
+° ඬ⃟🔞 _${usedPrefix}yaoi_
+° ඬ⃟🔞 _${usedPrefix}yaoi2_
+° ඬ⃟🔞 _${usedPrefix}yuri_
+° ඬ⃟🔞 _${usedPrefix}yuri2_
+° ඬ⃟🔞 _${usedPrefix}trapito_
+° ඬ⃟🔞 _${usedPrefix}hentai_
+° ඬ⃟🔞 _${usedPrefix}pies_
+° ඬ⃟🔞 _${usedPrefix}nsfwloli_
+° ඬ⃟🔞 _${usedPrefix}nsfworgy_
+° ඬ⃟🔞 _${usedPrefix}nsfwfoot_
+° ඬ⃟🔞 _${usedPrefix}nsfwass_
+° ඬ⃟🔞 _${usedPrefix}nsfwbdsm_
+° ඬ⃟🔞 _${usedPrefix}nsfwcum_
+° ඬ⃟🔞 _${usedPrefix}nsfwero_
+° ඬ⃟🔞 _${usedPrefix}nsfwfemdom_
+° ඬ⃟🔞 _${usedPrefix}nsfwglass_
 
 *<𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝔻𝔼 𝔸𝕌𝔻𝕀𝕆𝕊/>*
 *- 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
@@ -257,6 +309,7 @@ let str = `
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
+° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
@@ -276,8 +329,6 @@ let str = `
 *- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)* 
 _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 
-° ඬ⃟🔊 _Turi ip ip ip_
-° ඬ⃟🔊 _wenamechinasama_
 ° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ° ඬ⃟🔊 _Te diagnostico con gay_
 ° ඬ⃟🔊 _A nadie le importa_
@@ -295,23 +346,28 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🔊 _Vete a la vrg_
 ° ඬ⃟🔊 _Pasa pack Bot_
 ° ඬ⃟🔊 _Atencion grupo_
+° ඬ⃟🔊 _Marica quien_
 ° ඬ⃟🔊 _Murio el grupo_
+° ඬ⃟🔊 _Oh me vengo_
+° ඬ⃟🔊 _tio que rico_
 ° ඬ⃟🔊 _Viernes_
 ° ඬ⃟🔊 _Baneado_
+° ඬ⃟🔊 _Sexo_
 ° ඬ⃟🔊 _Hola_
 ° ඬ⃟🔊 _Un pato_
 ° ඬ⃟🔊 _Nyanpasu_
 ° ඬ⃟🔊 _Te amo_
 ° ඬ⃟🔊 _Yamete_
 ° ඬ⃟🔊 _Bañate_
+° ඬ⃟🔊 _Es puto_
 ° ඬ⃟🔊 _La biblia_
 ° ඬ⃟🔊 _Onichan_
+° ඬ⃟🔊 _Mierda de Bot_
 ° ඬ⃟🔊 _Siuuu_
 ° ඬ⃟🔊 _Rawr_
 ° ඬ⃟🔊 _UwU_
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
-° ඬ⃟🔊 _waza_
 
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
@@ -388,8 +444,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-
-
+['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
+['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
+['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
