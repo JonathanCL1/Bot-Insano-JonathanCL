@@ -132,12 +132,6 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
-° ඬ⃟📥 _${usedPrefix}playlist2 *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}spotify *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}imagen *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}pinteret *<texto>*_
