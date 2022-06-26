@@ -17,42 +17,15 @@ let doxeo = `*[ ✔ ] 𝙿𝙴𝚁𝚂𝙾𝙽𝙰 𝙳𝙾𝚇𝚇𝙴𝙰𝙳�
 
 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙾𝙱𝚃𝙴𝙽𝙸𝙳𝙾𝚂:*
 
-*Nombre:* ${text}
-*Ip:* 92.28.211.234
-*N:* 43 7462
-*W:* 12.4893
-*SS NUMBER:* 6979191519182016
-*IPV6:* fe80::5dcd::ef69::fb22::d9888%12 
-*UPNP:* Enabled
-*DMZ:* 10.112.42.15
-*MAC:* 5A:78:3E:7E:00
-*ISP:* Ucom unversal 
-*DNS:* 8.8.8.8
-*ALT DNS:* 1.1.1.8.1  
-*DNS SUFFIX:* Dlink
-*WAN:* 100.23.10.15
-*WAN TYPE:* private nat
-*GATEWAY:* 192.168.0.1
-*SUBNET MASK:* 255.255.0.255
-*UDP OPEN PORTS:* 8080.80
-*TCP OPEN PORTS:* 443
-*ROUTER VENDEDOR:* ERICCSON
-*DEVICE VENDEDOR:* WIN32-X
-*CONNECTION TYPE:* TPLINK COMPANY
-*ICMPHOPS:* 192.168.0.1 192.168.1.1 100.73.43.4
-host-132.12.32.167.ucom.com
-host-132.12.111.ucom.com
-36.134.67.189 216.239.78.11
-Sof02s32inf14.1e100.net
+*RESULTADOS:*
+*IP:192.86.839.234*
+*ROUTER PROVEEDOR:**IZZITELECOM
+*DEVICE PROVEEDOR: WIN32-X*
 *HTTP:* 192.168.3.1:433-->92.28.211.234:80
-*Http:* 192.168.625-->92.28.211.455:80
-*Http:* 192.168.817-->92.28.211.8:971
 *Upd:* 192.168452-->92.28.211:7265288
 *Tcp:* 192.168.682-->92.28.211:62227.7
-*Tcp:* 192.168.725-->92.28.211:67wu2
-*Tcp:* 192.168.629-->92.28.211.167:8615
-*EXTERNAL MAC:* 6U:77:89:ER:O4
-*MODEM JUMPS:* 64`
+*UBICACION EXACTA: https://www.google.es/maps/place/43%C2%B020%2753.0%22N+2%C2%B051%2752.5%22W/@43.3481558,-2.8647878,15z/data=%214m2%213m1%211s0x0:0x0* '
+
 conn.reply(m.chat, doxeo, m)
 }
 handler.help = ['doxear <nombre> | <@tag>']
