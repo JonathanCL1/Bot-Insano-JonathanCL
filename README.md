@@ -72,7 +72,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 CREDITOS:
 ## `EDITOR DEL BOT'
-'JonathanCL'
+## 'JonathanCL'
 
 [![BrunoSobrino](https://avatars.githubusercontent.com/u/108117479?s=400&u=af5a2602df1f3bd91c676b85274e660091fb726e&v=4)](https://github.com/BrunoSobrino/) 
 
