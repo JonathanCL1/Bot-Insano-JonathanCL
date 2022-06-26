@@ -262,27 +262,18 @@ let texto1 = `╭═─═─═─═─═─═╮
 222╠ ${usedPrefix}attp
 223╠ ${usedPrefix}ttp
 224╠ ${usedPrefix}pat
-225╠ ${usedPrefix}slap
-226╠ ${usedPrefix}kiss
-227╠ ${usedPrefix}dado
-228╠ ${usedPrefix}wm
-229╠ ${usedPrefix}stickermarker
-230╠ ${usedPrefix}stickerfilter
-232╠ ${usedPrefix}menucompleto
-234╠ ${usedPrefix}menu2
-235╠ ${usedPrefix}menu3
-236╠ ${usedPrefix}playlist
-237╠ ${usedPrefix}playlist2
-╭─╯
-╠╯
-║ㅤㅤㅤ A____A
-║ㅤㅤㅤ |・ㅅ・|
-║ㅤㅤㅤ |っ　ｃ|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ U￣￣U
-╠═─═─ • ⏄ • ─═─═╮
-╰═─═─ • ⏄ • ─═─═╯`
+╠ ${usedPrefix}slap
+╠ ${usedPrefix}kiss
+╠ ${usedPrefix}dado
+╠ ${usedPrefix}wm
+╠ ${usedPrefix}stickermarker
+╠ ${usedPrefix}stickerfilter
+╠ ${usedPrefix}menucompleto
+╠ ${usedPrefix}menu2
+╠ ${usedPrefix}menu3
+╠ ${usedPrefix}playlist
+╠ ${usedPrefix}playlist2
+
 const fake = { quoted: {
 key : {
 participant : '0@s.whatsapp.net' },
