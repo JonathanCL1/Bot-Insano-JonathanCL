@@ -117,6 +117,8 @@ let texto1 = `╭═─═─═─═─═─═╮
 44╠ ${usedPrefix}tiktok
 45╠ ${usedPrefix}ytmp3
 46╠ ${usedPrefix}ytmp4
+46╠ ${usedPrefix}play
+46╠ ${usedPrefix}play2
 47╠ ${usedPrefix}ytmp3doc
 48╠ ${usedPrefix}ytmp4doc
 53╠ ${usedPrefix}spotify
