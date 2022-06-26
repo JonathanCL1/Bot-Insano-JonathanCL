@@ -14,5 +14,5 @@ let res = await fetch("https://api.dhamzxploit.my.id/api/ytplaymp4?text="+text)
 let json = await res.json()
 conn.sendFile(m.chat, json.result.url, 'error.mp4', `*Gata Dios*`, m)}
 }
-handler.command = ['play.1', 'play.2']
+handler.command = ['playp', 'Playp']
 module.exports = handler
