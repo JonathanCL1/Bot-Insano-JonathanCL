@@ -74,7 +74,7 @@ CREDITOS:
 ## `EDITOR DEL BOT'
 ## 'JonathanCL'
 
-[![BrunoSobrino](https://avatars.githubusercontent.com/u/108117479?s=400&u=af5a2602df1f3bd91c676b85274e660091fb726e&v=4)](https://github.com/BrunoSobrino/) 
+[![BrunoSobrino](https://avatars.githubusercontent.com/u/108117479?s=400&u=af5a2602df1f3bd91c676b85274e660091fb726e&v=4)](https://github.com/JonathanCL1/Bot-Insano-JonathanCL/blob/master/README.md#creador-de-c%C3%B3digo) 
 
 ## 'CREADOR DE CÓDIGO'
 `The Mystic - Bot __________ By Bruno Sobrino`
