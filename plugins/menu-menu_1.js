@@ -65,7 +65,7 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   BOT-INSANO-BY-JONATHANCL
+║   BOT INSANO JONATHANCL
 ║╰═─═─═─═─══╯
 ┠╮
 ║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
