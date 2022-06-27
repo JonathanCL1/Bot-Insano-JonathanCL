@@ -16,9 +16,10 @@ let estado =`
 │ *=> 𝙽𝙸𝚅𝙴𝙻 𝙳𝙴 𝙸𝙽𝚂𝙰𝙽𝙸𝙳𝙰𝙳:* `*${pickRandom(['81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100'])}%*`
 │ *=> 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
 ╰─────────────── 
+`.trim()
 import { performance } from 'perf_hooks'
 let handler = async (m, { conn, text }) => {
-`.trim()
+
 
 conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/JonathanCL1/Bot-Insano-JonathanCL', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
