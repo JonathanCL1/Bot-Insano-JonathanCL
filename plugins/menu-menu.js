@@ -81,14 +81,7 @@ let str = `
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
 ° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puto *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}puta *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
 ° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
@@ -134,8 +127,8 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.1 *<texto / enlace / link / url>*_
-° ඬ⃟📥 _${usedPrefix}play.2 *<texto / enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}play *<texto / enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}play2 *<texto / enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}play *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playdoc *<texto>*_
 ° ඬ⃟📥 _${usedPrefix}playlist *<texto>*_
