@@ -65,7 +65,7 @@ let imagen1 = fs.readFileSync('./Menu2.jpg')
 let imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 let imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 let texto1 = `╭═─═─═─═─═─═╮
-║   BOT INSANO JONATHANCL
+║   BOT-INSANO-JONATHANCL
 ║╰═─═─═─═─══╯
 ┠╮
 ║- 𝙷𝙾𝙻𝙰 @${m.sender.split("@")[0]}
@@ -125,9 +125,8 @@ let texto1 = `╭═─═─═─═─═─═╮
 46╠ ${usedPrefix}ytmp4
 47╠ ${usedPrefix}ytmp3doc
 48╠ ${usedPrefix}ytmp4doc
-49╠ ${usedPrefix}play.1
-50╠ ${usedPrefix}play.2
-51╠ ${usedPrefix}play
+49╠ ${usedPrefix}play
+50╠ ${usedPrefix}play2
 52╠ ${usedPrefix}playdoc
 53╠ ${usedPrefix}spotify
 54╠ ${usedPrefix}imagen
@@ -334,7 +333,7 @@ const buttons = [
 {buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
 let buttonMessage = {
 document: imagen1, 
-fileName: `MENU COMPLETO`, 
+fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
 mimetype: `application/${document}`,
 jpegThumbnail: imagen1,
 caption: texto1,
@@ -347,7 +346,7 @@ contextInfo: {
 "mentionedJid": [m.sender, owner],
 "externalAdReply": {
 "showAdAttribution": false,
-"title": `LISTA DE COMANDOS COMPLETA`,
+"title": `MENU SENCILLO/COMPLETO`,
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
@@ -356,7 +355,7 @@ contextInfo: {
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
+handler.command = /^(menucompleto|menu3|menú3|memu3|memú3|help3|info3|comandos3|allmenu3|ayuda3|commands3|commandos3)$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
