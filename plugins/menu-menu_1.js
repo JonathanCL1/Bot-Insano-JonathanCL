@@ -211,31 +211,6 @@ let texto1 = `╭═─═─═─═─═─═╮
 131╠ ${usedPrefix}naruto
 132╠ ${usedPrefix}nezuko
 133╠ ${usedPrefix}sagiri
-134╠ ${usedPrefix}sasuke
-135╠ ${usedPrefix}sakura
-136╠ ${usedPrefix}cosplay
-137╠ ${usedPrefix}pack
-138╠ ${usedPrefix}pack2
-139╠ ${usedPrefix}pack3
-140╠ ${usedPrefix}videoxxx
-141╠ ${usedPrefix}tetas
-142╠ ${usedPrefix}booty
-143╠ ${usedPrefix}ecchi
-144╠ ${usedPrefix}furro
-145╠ ${usedPrefix}imagenlesbians
-146╠ ${usedPrefix}panties
-147╠ ${usedPrefix}pene
-148╠ ${usedPrefix}porno
-149╠ ${usedPrefix}porno2
-150╠ ${usedPrefix}randomxxx
-151╠ ${usedPrefix}pechos
-152╠ ${usedPrefix}yaoi
-153╠ ${usedPrefix}yaoi2
-154╠ ${usedPrefix}yuri
-155╠ ${usedPrefix}yuri2
-156╠ ${usedPrefix}trapito
-157╠ ${usedPrefix}hentai
-158╠ ${usedPrefix}pies
 159╠ ${usedPrefix}nsfwloli
 160╠ ${usedPrefix}nsfworgy
 161╠ ${usedPrefix}nsfwfoot
@@ -317,16 +292,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 238╠ ${usedPrefix}xnxxsearch
 239╠ ${usedPrefix}xnxxdl
 240╠ ${usedPrefix}xvideosdl
-╭─╯
-╠╯
-║ㅤㅤㅤ A____A
-║ㅤㅤㅤ |・ㅅ・|
-║ㅤㅤㅤ |っ　ｃ|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ U￣￣U
-╠═─═─ • ⏄ • ─═─═╮
-╰═─═─ • ⏄ • ─═─═╯`
+
 const fake = { quoted: {
 key : {
 participant : '0@s.whatsapp.net' },
@@ -343,7 +309,6 @@ const owner = "5219992095479@s.whatsapp.net"
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
-{buttonId: `#donar`, buttonText: {displayText: '📮 𝙳𝙾𝙽𝙰𝚁 📮'}, type: 1},
 {buttonId: `#menuaudios`, buttonText: {displayText: '🔊 𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂 🔊'}, type: 1},
 {buttonId: `#menucompleto`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 💟'}, type: 1}, ]
 let buttonMessage = {
@@ -361,12 +326,12 @@ contextInfo: {
 "mentionedJid": [m.sender, owner],
 "externalAdReply": {
 "showAdAttribution": false,
-"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+"title": `MENU COMPLETO`,
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": imagen3,
-"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
-"sourceUrl": 'https://www.pornhub.com' }}} 
+"mediaUrl": 'https://youtu.be/Xmm-pVffJBk',
+"sourceUrl": 'https://youtu.be/Xmm-pVffJBk' }}} 
 conn.sendMessage(m.chat, buttonMessage, fake)}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
