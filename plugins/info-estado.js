@@ -16,10 +16,6 @@ let estado =`
 │ let boost2 *=> 𝙽𝙸𝚅𝙴𝙻 𝙳𝙴 𝙸𝙽𝚂𝙰𝙽𝙸𝙳𝙰𝙳:* *${pickRandom(['95','96','97','98','99'}*
 │ let boost3 *=> 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
 ╰─────────────── 
-await m.reply(start)
-await m.reply(boost)
-await m.reply(boost2)
-await m.reply(boost3)
 `.trim()
 
 conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/JonathanCL1/Bot-Insano-JonathanCL', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
