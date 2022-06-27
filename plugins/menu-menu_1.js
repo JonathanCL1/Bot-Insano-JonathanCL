@@ -313,20 +313,7 @@ let texto1 = `╭═─═─═─═─═─═╮
 234╠ ${usedPrefix}menu2
 235╠ ${usedPrefix}menu3
 236╠ ${usedPrefix}playlist
-237╠ ${usedPrefix}playlist2
-238╠ ${usedPrefix}xnxxsearch
-239╠ ${usedPrefix}xnxxdl
-240╠ ${usedPrefix}xvideosdl
-╭─╯
-╠╯
-║ㅤㅤㅤ A____A
-║ㅤㅤㅤ |・ㅅ・|
-║ㅤㅤㅤ |っ　ｃ|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ |　　　|
-║ㅤㅤㅤ U￣￣U
-╠═─═─ • ⏄ • ─═─═╮
-╰═─═─ • ⏄ • ─═─═╯`
+237╠ ${usedPrefix}playlist2`
 const fake = { quoted: {
 key : {
 participant : '0@s.whatsapp.net' },
