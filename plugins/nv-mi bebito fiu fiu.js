@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /mi bebito fiu fiu/i
+handler.customPrefix = /mi bebito fiu fiu|Mi bebito fiu fiu/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
