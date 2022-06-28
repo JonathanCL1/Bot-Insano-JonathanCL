@@ -7,7 +7,7 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['berhenti','stop']
 handler.tags = ['General']
-handler.command = /^(berhenti|stop)$/i
+handler.command = /^(Pararbot|pararbot)$/i
 handler.owner = true
 handler.mods = false
 handler.premium = false
