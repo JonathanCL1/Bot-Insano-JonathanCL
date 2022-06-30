@@ -78,7 +78,6 @@ let str = `
 ° ඬ ⃟ 🤖 _𝗕𝗢𝗧_ (𝙐𝙨𝙤 𝙨𝙞𝙣 𝙥𝙧𝙚𝙛𝙞𝙟𝙤)
 *<𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎/>*
 ° ඬ⃟ _${usedPrefix}𝗝𝗢𝗜𝗡 *<enlace / link / url>*_
-//JONATHAN-CL//
 *<𝐉𝐔𝐄𝐆𝐎𝐒/>*
 ° ඬ⃟💫 _${usedPrefix}𝗠𝗔𝗧𝗘𝗦 *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ° ඬ⃟💫 _${usedPrefix}𝗣𝗣𝗧 *<papel / tijera /piedra>*_
@@ -97,13 +96,11 @@ let str = `
 ° ඬ⃟💫 _${usedPrefix}𝗙𝗢𝗥𝗠𝗔𝗥𝗣𝗔𝗥𝗘𝗝𝗔_
 ° ඬ⃟💫 _${usedPrefix}𝗩𝗘𝗥𝗗𝗔𝗗_
 ° ඬ⃟💫 _${usedPrefix}𝗥𝗘𝗧𝗢_
-//JONATHAN-CL//
 *<𝗔𝗖𝗧𝗜𝗩𝗔𝗥 𝗢 𝗗𝗘𝗦𝗔𝗖𝗧𝗜𝗩𝗔𝗥/>*
 ° ඬ⃟💥 _${usedPrefix}𝗘𝗡𝗔𝗕𝗟𝗘
 ° ඬ⃟💥 _${usedPrefix}𝗗𝗜𝗦𝗔𝗕𝗟𝗘
 *</>*
 ° ඬ⃟🔰 _${usedPrefix}𝗥𝗘𝗣𝗢𝗥𝗧𝗘 *<texto>*_
-//JONATHAN-CL//
 *<𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦/>*
 ° ඬ⃟📥 _${usedPrefix}𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 *<enlace / link / url>*_
@@ -130,7 +127,6 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}𝗜𝗚𝗦𝗧𝗔𝗟𝗞 *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}𝗜𝗚𝗦𝗧𝗢𝗥𝗬 *<nombre de usuario>*_
 ° ඬ⃟📥 _${usedPrefix}𝗧𝗜𝗞𝗧𝗢𝗞𝗦𝗧𝗔𝗟𝗞 *<nombre de usuario>*_
-//JONATHAN-CL//
 *<𝐆𝐑𝐔𝐏𝐎𝐒/>* 
 ° ඬ⃟💎 _${usedPrefix}𝗔𝗗𝗗 *<numero>*_
 ° ඬ⃟💎 _${usedPrefix}𝗞𝗜𝗖𝗞 *<@tag>*_
@@ -147,7 +143,6 @@ let str = `
 ° ඬ⃟💎 _${usedPrefix}𝗦𝗘𝗧𝗪𝗘𝗟𝗖𝗢𝗠𝗘 *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}𝗦𝗘𝗧𝗕𝗬𝗘 *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}𝗛𝗜𝗗𝗘𝗧𝗔𝗚 *<texto>*_
-//JONATHAN-CL//
 *<𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒/>*
 ° ඬ⃟🧧 _${usedPrefix}𝐓𝐎𝐈𝐌𝐆 *<responde a un sticker>*_
 ° ඬ⃟🧧 _${usedPrefix}𝐓𝐎𝐌𝐏3 *<responde a un video / nota de voz>*_
@@ -155,7 +150,6 @@ let str = `
 ° ඬ⃟🧧 _${usedPrefix}𝐓𝐎𝐕𝐈𝐃𝐄𝐎 *<responde a un audio>*_
 ° ඬ⃟🧧 _${usedPrefix}𝐓𝐎𝐔𝐑𝐋 *<responde a un video / imagen / audio>*_
 ° ඬ⃟🧧 _${usedPrefix}𝐓𝐓𝐒 𝐄𝐒 *<texto>*_
-//JONATHAN-CL//
 *<𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐘 𝐋𝐎𝐆𝐎𝐒/>*
 ° ඬ⃟🖍️ _${usedPrefix}𝐋𝐎𝐆𝐎𝐒 *<efecto> <texto>*_
 ° ඬ⃟🖍️ _${usedPrefix}𝐒𝐈𝐌𝐏𝐂𝐀𝐑𝐃 *<@tag>*_
@@ -165,7 +159,6 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}𝐈𝐓𝐒𝐎𝐒𝐓𝐔𝐏𝐈𝐃_
 ° ඬ⃟🖍️ _${usedPrefix}𝐏𝐈𝐗𝐄𝐋𝐀𝐑_
 ° ඬ⃟🖍️ _${usedPrefix}𝐁𝐋𝐔𝐑_
-//JONATHAN-CL//
 *<𝐑𝐀𝐍𝐃𝐎𝐌/>*
 ° ඬ⃟👾 _${usedPrefix}𝐂𝐑𝐈𝐒𝐓𝐈𝐀𝐍𝐎𝐑𝐎𝐍𝐀𝐋𝐃𝐎_
 ° ඬ⃟👾 _${usedPrefix}𝐌𝐄𝐒𝐒𝐈_
@@ -212,7 +205,6 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}𝐒𝐀𝐒𝐔𝐊𝐄_
 ° ඬ⃟👾 _${usedPrefix}𝐒𝐀𝐊𝐔𝐑𝐀_
 ° ඬ⃟👾 _${usedPrefix}𝐂𝐎𝐒𝐏𝐋𝐀𝐘_
-//JONATHAN-CL//
 *<𝗘𝗙𝗘𝗖𝗧𝗢𝗦 𝗗𝗘 𝗔𝗨𝗗𝗜𝗢/>*
 *- 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
 ° ඬ⃟🎤 _${usedPrefix}𝑩𝑨𝑺𝑺_
@@ -227,12 +219,10 @@ let str = `
 ° ඬ⃟🎤 _${usedPrefix}𝑺𝑳𝑶𝑾_
 ° ඬ⃟🎤 _${usedPrefix}𝑺𝑴𝑶𝑶𝑻𝑯_
 ° ඬ⃟🎤 _${usedPrefix}𝑻𝑼𝑷𝑨𝑰_
-//JONATHAN-CL//
 *<𝗖𝗛𝗔𝗧 𝗔𝗡𝗢𝗡𝗜𝗠𝗢/>*
 ° ඬ⃟📳 _${usedPrefix}𝑺𝑻𝑨𝑹𝑻_
 ° ඬ⃟📳 _${usedPrefix}𝑵𝑬𝑿𝑻_
 ° ඬ⃟📳 _${usedPrefix}𝑳𝑬𝑨𝑽𝑬_
-//JONATHAN-CL//
 *<𝗕𝗨𝗦𝗖𝗔𝗗𝗢𝗥𝗘𝗦/>*
 ° ඬ⃟🔍 _${usedPrefix}𝑨𝑵𝑰𝑴𝑬𝑰𝑵𝑭𝑶 *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}𝑮𝑶𝑶𝑮𝑳𝑬 *<texto>*_
@@ -248,9 +238,7 @@ let str = `
 ° ඬ⃟🔍 _${usedPrefix}𝑹𝑬𝑽𝑫1 *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}𝑻𝑶𝑹𝑨𝑪𝑪𝑰𝑵𝑶 *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}𝑼𝑨𝑷𝑲𝑷𝑹𝑶 *<texto>*_
-//JONATHAN-CL//
 *<𝗔𝗨𝗗𝗜𝗢𝗦/>* 
-//JONATHAN-CL//
 *- 𝙀𝙎𝘾𝙍𝙄𝘽𝙀 𝙇𝘼𝙎 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀𝙎 𝙋𝘼𝙇𝘼𝘽𝙍𝘼𝙎 𝙊 𝙁𝙍𝘼𝙎𝙀𝙎 𝙎𝙄𝙉 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)* 
 _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🔊 _𝑸𝑼𝑰𝑬𝑵 𝑬𝑺 𝑻𝑼 𝑺𝑬𝑴𝑷𝑨𝑰 𝑩𝑶𝑻𝑺𝑰𝑻𝑶 7𝑾7_
@@ -287,7 +275,6 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🔊 _𝑼𝑾𝑼_
 ° ඬ⃟🔊 _:𝑪_
 ° ඬ⃟🔊 _𝒂_
-//JONATHAN-CL//
 *<𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦/>*
 ° ඬ⃟🛠️ _${usedPrefix}𝑨𝑭𝑲 *<motivo>*_
 ° ඬ⃟🛠️ _${usedPrefix}𝑨𝑪𝑶𝑹𝑻𝑨𝑹 *<enlace / link / url>*_
@@ -298,7 +285,6 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🛠️ _${usedPrefix}𝑺𝑷𝑨𝑴𝑾𝑨 *<numero|texto|cantidad>*_
 ° ඬ⃟🛠️ _${usedPrefix}𝑺𝑻𝒀𝑳𝑬𝑻𝑬𝑿𝑻 *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}𝑻𝑹𝑨𝑫𝑼𝑪𝑰𝑹 *<texto>*_
-//JONATHAN-CL//
 *<𝗥𝗣𝗚 - 𝗟𝗜𝗠𝗜𝗧𝗘𝗦 - 𝗘𝗖𝗢𝗡𝗢𝗠𝗜𝗔/>*
 ° ඬ⃟💵 _${usedPrefix}𝑩𝑨𝑳𝑨𝑵𝑪𝑬_
 ° ඬ⃟💵 _${usedPrefix}𝑪𝑳𝑨𝑰𝑴_
@@ -313,7 +299,6 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟💵 _${usedPrefix}𝑻𝑹𝑨𝑵𝑺𝑭𝑬𝑹 *<tipo> <cantidad> <@tag>*_
 ° ඬ⃟💵 _${usedPrefix}𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑹_
 ° ඬ⃟💵 _${usedPrefix}𝑼𝑵𝑹𝑬𝑮 *<numero de serie>*_
-//JONATHAN-CL//
 *<𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦/>*
 ° ඬ⃟👽 _${usedPrefix}𝑺𝑻𝑰𝑪𝑲𝑬𝑹 *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}𝑺𝑻𝑰𝑪𝑲𝑬𝑹 *<enlace / link / url>*_
@@ -330,7 +315,6 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👽 _${usedPrefix}𝑾𝑴 *<packname> <author>*_
 ° ඬ⃟👽 _${usedPrefix}𝑺𝑻𝑰𝑪𝑲𝑬𝑹𝑴𝑨𝑲𝑬𝑹 *<efecto> <responder a imagen>*_
 ° ඬ⃟👽 _${usedPrefix}𝑺𝑻𝑰𝑪𝑲𝑬𝑹𝑭𝑰𝑳𝑻𝑹𝑬𝑹 *<efecto> <responder a imagen>*_
-//JONATHAN-CL//
 *<𝗢𝗪𝗡𝗘𝗥 𝗬 𝗠𝗢𝗗𝗘𝗥𝗔𝗗𝗢𝗥𝗘𝗦/>*
 ° ඬ⃟👑 _${usedPrefix}𝑪𝑨𝑱𝑨𝑭𝑼𝑬𝑹𝑻𝑬_
 ° ඬ⃟👑 _${usedPrefix}𝑬𝑵𝑨𝑩𝑳𝑬/𝑫𝑰𝑺𝑨𝑩𝑳𝑬 *<activar o desactivar funciones>*_
