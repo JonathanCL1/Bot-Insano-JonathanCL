@@ -350,7 +350,6 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['🌹 𝗢𝗪𝗡𝗘𝗥 🌹', '/owner'],
-//JONATHAN-CL//
 ['🐾 𝗜𝗡𝗙𝗢𝗕𝗢𝗧 🐾', '/infobot']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
