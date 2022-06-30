@@ -63,54 +63,42 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-*ミ💖 𝑯𝑶𝑳𝑨 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 BOT INSANO. 💖彡*
+*ミ💖 𝑯𝑶𝑳𝑨 ✨${name}✨, 𝑨𝑸𝑼𝑰 𝑬𝑺𝑻𝑨 𝑬𝑳 𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑫𝑬 𝑩𝑶𝑻 𝑰𝑵𝑺𝑨𝑵𝑶. 💖彡*
 *📅 𝑭𝑬𝑺𝑯𝑨: ${week}, ${date}*
 *📈 𝑻𝑰𝑬𝑴𝑷𝑶 𝑨𝑪𝑻𝑰𝑽𝑶: ${uptime}*
 *📊 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺: ${rtotalreg}*
 *<𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈Ó𝐍 𝐃𝐄𝐋 𝐁𝐎𝐓/>*
-° ඬ ⃟ 🤖 _${usedPrefix}grupos_
-° ඬ ⃟ 🤖 _${usedPrefix}estado_
-° ඬ ⃟ 🤖 _${usedPrefix}infobot_
-° ඬ ⃟ 🤖 _${usedPrefix}donar_
-° ඬ ⃟ 🤖 _${usedPrefix}grouplist_
-° ඬ ⃟ 🤖 _${usedPrefix}owner_
-° ඬ ⃟ 🤖 _${usedPrefix}script_
-° ඬ ⃟ 🤖 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-*<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
+° ඬ ⃟ 🤖 _${usedPrefix}𝗚𝗥𝗨𝗣𝗢𝗦_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗘𝗦𝗧𝗔𝗗𝗢_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗜𝗡𝗙𝗢𝗕𝗢𝗧_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗗𝗢𝗡𝗔𝗥_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗚𝗥𝗢𝗨𝗣𝗟𝗜𝗦𝗧_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗢𝗪𝗡𝗘𝗥_
+° ඬ ⃟ 🤖 _${usedPrefix}𝗦𝗖𝗥𝗜𝗣𝗧_
+° ඬ ⃟ 🤖 _𝗕𝗢𝗧_ (𝙐𝙨𝙤 𝙨𝙞𝙣 𝙥𝙧𝙚𝙛𝙞𝙟𝙤)
+*<𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐔𝐍 𝐆𝐑𝐔𝐏𝐎/>*
 ° ඬ⃟ _${usedPrefix}join *<enlace / link / url>*_
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
-° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-° ඬ⃟🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manco *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}manca *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}rata *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}love *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}doxear *<nombre / @tag>*_
-° ඬ⃟🎖️ _${usedPrefix}pregunta *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}slot *<apuesta>*_
-° ඬ⃟🎖️ _${usedPrefix}pvp *<@tag>*_
-° ඬ⃟🎖️ _${usedPrefix}simi *<texto>*_
-° ඬ⃟🎖️ _${usedPrefix}topgays_
-° ඬ⃟🎖️ _${usedPrefix}topotakus_
-° ඬ⃟🎖️ _${usedPrefix}formarpareja_
-° ඬ⃟🎖️ _${usedPrefix}verdad_
-° ඬ⃟🎖️ _${usedPrefix}reto_
+° ඬ⃟💫 _${usedPrefix}𝗠𝗔𝗧𝗘𝗦 *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+° ඬ⃟💫 _${usedPrefix}𝗣𝗣𝗧 *<papel / tijera /piedra>*_
+° ඬ⃟💫 _${usedPrefix}𝗚𝗔𝗬2 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗠𝗔𝗡𝗖𝗢 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗠𝗔𝗡𝗖𝗔 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗥𝗔𝗧𝗔 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗟𝗢𝗩𝗘 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗗𝗢𝗫𝗫𝗘𝗔𝗥 *<nombre / @tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗣𝗥𝗘𝗚𝗨𝗡𝗧𝗔 *<texto>*_
+° ඬ⃟💫 _${usedPrefix}𝗦𝗟𝗢𝗧 *<apuesta>*_
+° ඬ⃟💫 _${usedPrefix}𝗣𝗩𝗣 *<@tag>*_
+° ඬ⃟💫 _${usedPrefix}𝗦𝗜𝗠𝗜 *<texto>*_
+° ඬ⃟💫 _${usedPrefix}𝗧𝗢𝗣𝗚𝗔𝗬𝗦_
+° ඬ⃟💫 _${usedPrefix}𝗧𝗢𝗣𝗢𝗧𝗔𝗞𝗨𝗦_
+° ඬ⃟💫 _${usedPrefix}𝗙𝗢𝗥𝗠𝗔𝗥𝗣𝗔𝗥𝗘𝗝𝗔_
+° ඬ⃟💫 _${usedPrefix}𝗩𝗘𝗥𝗗𝗔𝗗_
+° ඬ⃟💫 _${usedPrefix}𝗥𝗘𝗧𝗢_
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
+° ඬ⃟💥 _${usedPrefix}𝗘𝗡𝗔𝗕𝗟𝗘
+° ඬ⃟💥 _${usedPrefix}𝗗𝗜𝗦𝗔𝗕𝗟𝗘
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 ° ඬ⃟🔰 _${usedPrefix}reporte *<texto>*_
 *<𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊/>*
