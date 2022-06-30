@@ -59,7 +59,8 @@ level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, r
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-     
+
+
 
 let str = `
 *ミ💖 𝑯𝑶𝑳𝑨 ✨${name}✨, 𝑨𝑸𝑼𝑰 𝑬𝑺𝑻𝑨 𝑬𝑳 𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑫𝑬 𝑩𝑶𝑻 𝑰𝑵𝑺𝑨𝑵𝑶. 💖彡*
@@ -332,8 +333,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}𝑳𝑰𝑺𝑻𝑷𝑹𝑬𝑴_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-['🌹 𝗢𝗪𝗡𝗘𝗥 🌹', '/owner'],
-['🐾 𝗜𝗡𝗙𝗢𝗕𝗢𝗧 🐾', '/infobot']
+['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
+['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
+['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
@@ -354,4 +356,3 @@ let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
 return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
-
