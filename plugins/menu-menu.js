@@ -76,7 +76,7 @@ let str = `
 ° ඬ ⃟ 🤖 _${usedPrefix}𝗢𝗪𝗡𝗘𝗥_
 ° ඬ ⃟ 🤖 _${usedPrefix}𝗦𝗖𝗥𝗜𝗣𝗧_
 ° ඬ ⃟ 🤖 _𝗕𝗢𝗧_ (𝙐𝙨𝙤 𝙨𝙞𝙣 𝙥𝙧𝙚𝙛𝙞𝙟𝙤)
-*<𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐔𝐍 𝐆𝐑𝐔𝐏𝐎/>*
+*<𝐔𝐍𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐀 𝐓𝐔 𝐆𝐑𝐔𝐏𝐎/>*
 ° ඬ⃟ _${usedPrefix}𝗝𝗢𝗜𝗡 *<enlace / link / url>*_
 *<𝐉𝐔𝐄𝐆𝐎𝐒/>*
 ° ඬ⃟💫 _${usedPrefix}𝗠𝗔𝗧𝗘𝗦 *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
@@ -333,8 +333,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}𝑳𝑰𝑺𝑻𝑷𝑹𝑬𝑴_
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
-['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
+['🌹 𝗢𝗪𝗡𝗘𝗥 🌹', '/owner'],
+['🐾 𝗜𝗡𝗙𝗢𝗕𝗢𝗧 🐾', '/infobot']
 ], m,)
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
