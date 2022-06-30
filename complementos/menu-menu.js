@@ -59,8 +59,7 @@ level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, r
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
- 
-//JONATHAN-CL//    
+     
 
 let str = `
 *ミ💖 𝑯𝑶𝑳𝑨 ✨${name}✨, 𝑨𝑸𝑼𝑰 𝑬𝑺𝑻𝑨 𝑬𝑳 𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑫𝑬 𝑩𝑶𝑻 𝑰𝑵𝑺𝑨𝑵𝑶. 💖彡*
