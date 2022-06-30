@@ -66,18 +66,18 @@ let str = `
 *ミ💖 𝑯𝑶𝑳𝑨 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 BOT INSANO. 💖彡*
 *📅 𝑭𝑬𝑺𝑯𝑨: ${week}, ${date}*
 *📈 𝑻𝑰𝑬𝑴𝑷𝑶 𝑨𝑪𝑻𝑰𝑽𝑶: ${uptime}*
-*📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}*
+*📊 𝑼𝑺𝑼𝑨𝑹𝑰𝑶𝑺: ${rtotalreg}*
 *<𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈Ó𝐍 𝐃𝐄𝐋 𝐁𝐎𝐓/>*
-° ඬ ⃟ 💟 _${usedPrefix}grupos_
-° ඬ ⃟ 💟 _${usedPrefix}estado_
-° ඬ ⃟ 💟 _${usedPrefix}infobot_
-° ඬ ⃟ 💟 _${usedPrefix}donar_
-° ඬ ⃟ 💟 _${usedPrefix}grouplist_
-° ඬ ⃟ 💟 _${usedPrefix}owner_
-° ඬ ⃟ 💟 _${usedPrefix}script_
-° ඬ ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+° ඬ ⃟ 🤖 _${usedPrefix}grupos_
+° ඬ ⃟ 🤖 _${usedPrefix}estado_
+° ඬ ⃟ 🤖 _${usedPrefix}infobot_
+° ඬ ⃟ 🤖 _${usedPrefix}donar_
+° ඬ ⃟ 🤖 _${usedPrefix}grouplist_
+° ඬ ⃟ 🤖 _${usedPrefix}owner_
+° ඬ ⃟ 🤖 _${usedPrefix}script_
+° ඬ ⃟ 🤖 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 *<𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆/>*
-° ඬ⃟👽 _${usedPrefix}join *<enlace / link / url>*_
+° ඬ⃟ _${usedPrefix}join *<enlace / link / url>*_
 *<𝕁𝕌𝔼𝔾𝕆𝕊/>*
 ° ඬ⃟🎖️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ° ඬ⃟🎖️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
