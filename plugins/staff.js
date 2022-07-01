@@ -6,7 +6,6 @@ const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadm
 let pesan = args.join` `
 //let oi = `*STAFF:* ${pesan}`//
 let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」━*
-${oi}
 ${listAdmin}
 *𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:* 
 @${owner.split('@')[0]}
