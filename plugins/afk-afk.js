@@ -7,5 +7,5 @@ m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝗘𝗟 𝗜𝗡𝗦𝗔𝗡𝗢 ${conn.getN
 `)}
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.command = /^afk|Afk|$/i
+handler.command = /^afk|$/i
 export default handler
