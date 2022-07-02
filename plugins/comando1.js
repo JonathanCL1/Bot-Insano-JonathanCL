@@ -6,8 +6,11 @@ const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadm
 let pesan = args.join` `
 //let oi = `*STAFF:* ${pesan}`//
 let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」━*
+}
+𝘼𝘿𝙈𝙄𝙉𝙄𝙎𝙏𝙍𝘼𝘿𝙊𝙍𝙀𝙎 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊:
 ${listAdmin}
-*𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾:* 
+}
+*𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊:* 
 @${owner.split('@')[0]}
 `.trim()
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
