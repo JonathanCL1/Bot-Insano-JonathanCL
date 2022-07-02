@@ -15,4 +15,5 @@ global.pack = [
   "https://telegra.ph/file/a731c6b8e5d797e47830f.jpg",
   "https://telegra.ph/file/f36607b51a79a3cbce489.jpg",
   "https://telegra.ph/file/a99c75a664b2fb96e7199.jpg",
- ]
+  "https://telegra.ph/file/f9f65893590c42a882874.jpg",
+]
