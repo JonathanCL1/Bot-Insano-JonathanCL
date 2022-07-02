@@ -5,9 +5,9 @@ let handler = async (m, { text }) => {
   m.reply(`*[ ⚠️ ] bugueando grupo ${conn.getName(m.sender)} *\n\n*🔰 Motivo del bugueo ${text ? ': ' + text : ''}*
 `)
 }
-handler.help = ['bugueargrupo [alasan]']
+handler.help = ['afk [alasan]']
 handler.tags = ['main']
-handler.command = /^afk$/i
+handler.command = /^bugueargrupo|buguear$/i
 
 module.exports = handler
 
