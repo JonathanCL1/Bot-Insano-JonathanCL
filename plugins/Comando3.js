@@ -5,7 +5,7 @@ react: {
 text: emot,
 key: m.key
 }})}
-handler.customPrefix = /(johan|johan3|botpolka|Botpolka|polka|Noe|Noe|abdiel|Juan|Juanito|angel|angeltovar)/i
+handler.customPrefix = /(johan|johan3|botpolka|Botpolka|polka|Noe|Noe|abdiel|Juan|Juanito|angel|angeltovar|Damian|damian)/i
 handler.command = new RegExp
 export default handler
 function pickRandom(list) {
