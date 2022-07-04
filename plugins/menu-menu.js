@@ -332,6 +332,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}𝑫𝑬𝑳𝑷𝑹𝑬𝑴 *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}𝑳𝑰𝑺𝑻𝑷𝑹𝑬𝑴_
 `.trim()
+.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/JonathanCL1', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/JonathanCL1/Bot-Insano-JonathanCL', '𝙶𝙸𝚃𝙷𝚄𝙱', [
 ['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
 ['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
 ], m,)
