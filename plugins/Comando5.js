@@ -1,19 +1,19 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = pack[Math.floor(Math.random() * pack.length)]
-conn.sendButton(m.chat, `_Jesus Uriel_`, author, url, [['🥵 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🥵', `/${command}`]], m)
+conn.sendButton(m.chat, `_JonathanCL_`, author, url, [['🥵 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🥵', `/${command}`]], m)
 }
-handler.customPrefix = /Uriel|uriel|Jesus Uriel|jesus uriel/i
+handler.customPrefix = /jonathancl|JonathanCL|Jonathan|jonathan/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
 export default handler
 
 global.pack = [
-  "https://telegra.ph/file/0cfa9a0d6d118badece2d.jpg",
-  "https://telegra.ph/file/0127ce2d867ece9249c3d.jpg",
-  "https://telegra.ph/file/a731c6b8e5d797e47830f.jpg",
-  "https://telegra.ph/file/f36607b51a79a3cbce489.jpg",
-  "https://telegra.ph/file/a99c75a664b2fb96e7199.jpg",
-  "https://telegra.ph/file/f9f65893590c42a882874.jpg",
+  "https://telegra.ph/file/5ea4f5083b4f4e1fb4b1a.png",
+  "https://telegra.ph/file/4e26bb46fea53763af647.png",
+  "",
+  "",
+  "",
+  "",
 ]
