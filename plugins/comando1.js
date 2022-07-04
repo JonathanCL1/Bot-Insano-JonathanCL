@@ -13,7 +13,7 @@ ${listAdmin}
 @${owner.split('@')[0]}       
 `.trim()
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
-
+}
 handler.help = ['admins <texto>']
 handler.tags = ['group']
 handler.command = /^(Staff|staff|staf|Staf)$/i
