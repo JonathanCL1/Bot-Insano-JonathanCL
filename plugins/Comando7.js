@@ -1,7 +1,7 @@
 import fs from 'fs'
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let text = `
-${['Fan de kunno?','Kunnolover','que gay','No sabía que eras gay'].getRandom()}*
+$*{['Fan de kunno?','Kunnolover','que gay','No sabía que eras gay'].getRandom()}*
 `.trim()   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
