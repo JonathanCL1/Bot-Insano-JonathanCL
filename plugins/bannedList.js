@@ -17,7 +17,7 @@ ${sb}
 }
 handler.help = ['bannedlist']
 handler.tags = ['info']
-handler.command = /^list?ban(ned)?|ban(ned)?list?|daftarban(ned)?$/i
+handler.command = /^(banlist|listban|Banlist|Listban)$/i
 
 handler.owner = false
 
