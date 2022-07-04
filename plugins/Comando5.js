@@ -12,8 +12,4 @@ export default handler
 global.pack = [
   "https://telegra.ph/file/5ea4f5083b4f4e1fb4b1a.png",
   "https://telegra.ph/file/4e26bb46fea53763af647.png",
-  "",
-  "",
-  "",
-  "",
 ]
