@@ -7,6 +7,7 @@ if (process.send) { process.send('uptime')
 _muptime = await new Promise(resolve => { process.once('message', resolve) 
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
+teks += `┣➥ @${mem.id.split('@')[0]}\n`}
 let estado =`
 ╭─[ *𝓑𝓸𝓽-𝓘𝓷𝓼𝓪𝓷𝓸-𝓙𝓸𝓷𝓪𝓽𝓱𝓪𝓷𝓒𝓛* ]
 │ *➤ 𝐇𝐎𝐋𝐀 𝐈𝐍𝐒𝐀𝐍𝐎 ${name}*
