@@ -11,13 +11,10 @@ let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」
  *𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊:* 
  @${owner.split('@')[0]}       
 `.trim()
-
-
 {buttonId: `${usedPrefix}infogroup`, buttonText: {displayText: 'Infogrupo'}, type: 1}, 
 {buttonId: `${usedPrefix}menu`, buttonText: {displayText: 'Menu'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
-
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
 handler.help = ['admins <texto>']
