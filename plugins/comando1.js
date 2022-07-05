@@ -12,7 +12,6 @@ let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」
  @${owner.split('@')[0]}       
 `.trim()
 ['🌹 Menu 🌹', '/menu'],
-], m,)
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
 handler.help = ['admins <texto>']
