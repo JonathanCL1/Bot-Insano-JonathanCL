@@ -10,7 +10,7 @@ body: 'Bot-Insano',
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://github.com/JonathanCL1/Bot-Insano-JonathanCL`}}})   
 }
-handler.customPrefix = /dormir|Dormir|entiezar|Entiezar|durmiendo|Durmiendo/i
+handler.customPrefix = /dormir|Dormir|entiezar|Entiezar/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
