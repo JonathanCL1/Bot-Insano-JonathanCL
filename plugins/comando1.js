@@ -13,7 +13,7 @@ let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」
 `.trim()
 
 
-buttonId: `${usedPrefix}infogroup`, buttonText: {displayText: 'Infogrupo'}, type: 1}, 
+{buttonId: `${usedPrefix}infogroup`, buttonText: {displayText: 'Infogrupo'}, type: 1}, 
 {buttonId: `${usedPrefix}menu`, buttonText: {displayText: 'Menu'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
