@@ -13,9 +13,10 @@ let text = `*━「* 𝗦𝗧𝗔𝗙𝗙 𝗗𝗘 ${groupMetadata.subject} *」
 `.trim()
 
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/JonathanCL1/Bot-Insano-JonathanCL', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
-], m)}
+buttonId: `${usedPrefix}infogroup`, buttonText: {displayText: 'Infogrupo'}, type: 1}, 
+{buttonId: `${usedPrefix}menu`, buttonText: {displayText: 'Menu'}, type: 1}],
+'headerType': 6 }
+conn.sendMessage(m.chat, buttonMessage, { quoted: m })}
 
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
