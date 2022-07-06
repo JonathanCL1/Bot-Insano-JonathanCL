@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = Juanito[Math.floor(Math.random() * Juanito.length)]
-conn.sendButton(m.chat, `_Juanitopocoinsano_`, author, url, [['𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴', `/${handler.customPrefix = /Juan|Juanito|juanito|juan/i}`]], m)
+conn.sendButton(m.chat, `*Juan poco insano lorenzo*`, author, url, [['𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴', `/${handler.customPrefix = /Juan|Juanito|juanito|juan/i}`]], m)
 }
 handler.customPrefix = /Juan|Juanito|juanito|juan/i
 handler.command = new RegExp
