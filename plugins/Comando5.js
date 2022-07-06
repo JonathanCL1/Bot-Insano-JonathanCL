@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+// import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = JonathanCL[Math.floor(Math.random() * JonathanCL.length)]
 conn.sendButton(m.chat, `_JonathanCL_`, author, url, [['𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴', `/${handler.customPrefix = /JonathanCL|Jonathan|jonathan/i}`]], m)
@@ -16,3 +16,4 @@ global.JonathanCL = [
   "https://telegra.ph/file/2b5d21a489488582bf7d3.png",
   "https://telegra.ph/file/cb64c6506ebf70bd79653.jpg",
 ]
+                                      //
