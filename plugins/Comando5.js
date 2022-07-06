@@ -16,4 +16,3 @@ global.JonathanCL = [
   "https://telegra.ph/file/2b5d21a489488582bf7d3.png",
   "https://telegra.ph/file/cb64c6506ebf70bd79653.jpg",
 ]
-                                      
