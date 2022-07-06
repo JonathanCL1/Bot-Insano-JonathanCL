@@ -18,3 +18,4 @@ global.Juanito = [
     "https://telegra.ph/file/b15b79b1069897bdd99e6.jpg"
     "https://telegra.ph/file/59512e99fdb67a9c06648.jpg"
     "https://telegra.ph/file/423b86cc4d259a825a072.jpg"
+]
