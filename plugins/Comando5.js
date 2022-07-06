@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
-let url = uriel[Math.floor(Math.random() * uriel.length)]
+let url = JonathanCL[Math.floor(Math.random() * JonathanCL.length)]
 conn.sendButton(m.chat, `_JonathanCL_`, author, url, [['🛐 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🛐', `/${command}`]], m)
 }
 handler.customPrefix = /jonathancl|JonathanCL|Jonathan|jonathan/i
