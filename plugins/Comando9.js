@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = Juanito[Math.floor(Math.random() * Juanito.length)]
-conn.sendButton(m.chat, `_Juan poca insanidad_`, author, url, [['𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴', `/${handler.customPrefix = /Juan|juanito|Juanito|juan/i}`]], m)
+conn.sendButton(m.chat, `_Juan Poco insano lorenzo_`, author, url, [['𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴', `/${handler.customPrefix = /Juan|Juanito|juanito|juan/i}`]], m)
 }
-handler.customPrefix = /Juan|juanito|Juanito|juan/i
+handler.customPrefix = /Juan|Juanito|juanito|juan/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
@@ -18,4 +18,3 @@ global.Juanito = [
     "https://telegra.ph/file/b15b79b1069897bdd99e6.jpg"
     "https://telegra.ph/file/59512e99fdb67a9c06648.jpg"
     "https://telegra.ph/file/423b86cc4d259a825a072.jpg"
-]
