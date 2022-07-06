@@ -9,7 +9,7 @@ handler.fail = null
 handler.exp = 100
 export default handler
 
-global.pack = [
+global.JonathanCL = [
   "https://telegra.ph/file/5ea4f5083b4f4e1fb4b1a.png",
   "https://telegra.ph/file/4e26bb46fea53763af647.png",
   "https://telegra.ph/file/5761836e45d77256eeac8.png",
