@@ -1,4 +1,4 @@
-let handler = async (m, { conn }) => {
+// let handler = async (m, { conn }) => {
 let emot = pickRandom(["🐀", "🐀", "🐭","🧀"])
 conn.sendMessage(m.chat, {
 react: {
@@ -9,4 +9,4 @@ handler.customPrefix = /(johan|johan3|botpolka|Botpolka|polka|Noe|Noe|abdiel|Jua
 handler.command = new RegExp
 export default handler
 function pickRandom(list) {
-return list[Math.floor(Math.random() * list.length)]}
+return list[Math.floor(Math.random() * list.length)]} //
