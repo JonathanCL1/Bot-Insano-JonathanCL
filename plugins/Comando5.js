@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, command }) => {
 let url = pack[Math.floor(Math.random() * pack.length)]
 }
-handler.customPrefix = /jonathancl|JonathanCL|Jonathan|jonathan/i
+handler.customPrefix = /^(jonathancl|JonathanCL|Jonathan|jonathan)$/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
