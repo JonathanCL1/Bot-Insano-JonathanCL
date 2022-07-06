@@ -4,6 +4,7 @@ let url = JonathanCL[Math.floor(Math.random() * JonathanCL.length)]
 conn.sendButton(m.chat, `_JonathanCL_`, author, url, [['🛐 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🛐', `/${JonathanCL}`]], m)
 }
 handler.customPrefix = /jonathancl|JonathanCL|Jonathan|jonathan/i
+handler.command = /^(Jonathan)$/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
