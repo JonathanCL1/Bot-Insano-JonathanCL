@@ -24,6 +24,6 @@ sourceUrl: `https://github.com/JonathanCL1/Bot-Insano-JonathanCL`}}})
 }
 handler.tags = ['games']
 handler.help = ['suitpvp', 'suit'].map(v => v + ' @tag')
-handler.command = /^Tiesos|tiesos|ppt2?$/i
+handler.command = /^Tiesos2|tiesos2|ppt2?$/i
 handler.group = true
 export default handler
