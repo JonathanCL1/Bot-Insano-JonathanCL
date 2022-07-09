@@ -14,15 +14,14 @@ status: 'wait',
 waktu: setTimeout(() => {
 if (conn.suit[id]) conn.reply(m.chat, `*[ ⏳ ] 𝚃𝙸𝙴𝙼𝙿𝙾 𝙳𝙴 𝙴𝚂𝙿𝙴𝚁𝙰 𝙵𝙸𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾, 𝙻𝙾𝚂 𝚀𝚄𝙴 𝙽𝙾 𝙿𝚄𝙻𝚂𝙰𝚁𝙾𝙽 𝙿𝚁𝙴𝚂𝙴𝙽𝚃𝙴 𝚂𝙾𝙽 𝙵𝙰𝙽 𝙳𝙴 𝙺𝚄𝙽𝙽𝙾❗*`, m)
 delete conn.suit[id]
-}, timeout), poin, poin_lose, poin_bot, timeout
-}}   
+}, timeout), poin, poin_lose, poin_bot, timeout   
 conn.reply(m.chat, text, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝙲𝙸𝙾𝙽 - 𝚂𝙴𝚁𝙱𝙾𝚃',
 body: 'Bot-Insano',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://github.com/JonathanCL1/Bot-Insano-JonathanCL`}}})   
-}
+}}
 handler.tags = ['games']
 handler.help = ['suitpvp', 'suit'].map(v => v + ' @tag')
 handler.command = /^Tiesos2|tiesos2|ppt2?$/i
