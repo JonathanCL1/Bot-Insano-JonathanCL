@@ -22,8 +22,8 @@ body: 'Bot-Insano',
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://github.com/JonathanCL1/Bot-Insano-JonathanCL`}}})   
 }
-handler.customPrefix = /dormir|Dormir|entiezar|Entiezar/i
-handler.command = new RegExp
-handler.fail = null
-handler.exp = 100
+handler.tags = ['games']
+handler.help = ['suitpvp', 'suit'].map(v => v + ' @tag')
+handler.command = /^Tiesos|tiesos|ppt2?$/i
+handler.group = true
 export default handler
