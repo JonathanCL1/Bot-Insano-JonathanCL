@@ -1,3 +1,4 @@
+//comando activado//
 let handler = async (m, { conn, text }) => {
 
 let [nomor, pesan, jumlah] = text.split('|')
