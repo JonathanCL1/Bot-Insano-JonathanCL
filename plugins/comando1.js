@@ -17,7 +17,6 @@ conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/JonathanCL1/B
 ], m)}
 conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
-handler.help = ['staff']
 handler.tags = ['main']
 handler.command = /^(Staff|staff|staf|Staf)$/i
 handler.group = true
