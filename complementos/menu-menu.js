@@ -110,6 +110,8 @@ let str = `
 ° ඬ⃟🎖️ _${usedPrefix}formarpareja_
 ° ඬ⃟🎖️ _${usedPrefix}verdad_
 ° ඬ⃟🎖️ _${usedPrefix}reto_
+° ඬ⃟🎖️ _${usedPrefix}cancion_
+° ඬ⃟🎖️ _${usedPrefix}pista_
 
 *<𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ/>*
 
@@ -127,6 +129,8 @@ let str = `
 ° ඬ⃟☑️ _${usedPrefix}disable *audios*_
 ° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
 ° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}enable *antiviewonce*_
+° ඬ⃟☑️ _${usedPrefix}disable *antiviewonce*_
 
 *<ℝ𝔼ℙ𝕆ℝ𝕋𝔼𝕊 𝔻𝔼 𝔽𝔸𝕃𝕃𝕆𝕊/>*
 
@@ -139,6 +143,7 @@ let str = `
 ° ඬ⃟📥 _${usedPrefix}mediafire *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gitclone *<enlace / link / url>*_
+° ඬ⃟📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}gdrive *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}tiktok *<enlace / link / url>*_
 ° ඬ⃟📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
@@ -193,6 +198,8 @@ let str = `
 *<𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝕐 𝕃𝕆𝔾𝕆𝕊/>*
 
 ° ඬ⃟🖍️ _${usedPrefix}logos *<efecto> <texto>*_
+° ඬ⃟🖍️ _${usedPrefix}logocorazon *<texto>*_
+° ඬ⃟🖍️ _${usedPrefix}logochristmas *<texto>*_
 ° ඬ⃟🖍️ _${usedPrefix}simpcard *<@tag>*_
 ° ඬ⃟🖍️ _${usedPrefix}hornycard *<@tag>*_
 ° ඬ⃟🖍️ _${usedPrefix}lolice *<@tag>*_
@@ -200,6 +207,11 @@ let str = `
 ° ඬ⃟🖍️ _${usedPrefix}itssostupid_
 ° ඬ⃟🖍️ _${usedPrefix}pixelar_
 ° ඬ⃟🖍️ _${usedPrefix}blur_
+
+*<𝔽ℝ𝔸𝕊𝔼𝕊/>*
+
+° ඬ⃟🥀 _${usedPrefix}consejo_
+° ඬ⃟🥀 _${usedPrefix}fraseromantica_
 
 *<ℝ𝔸ℕ𝔻𝕆𝕄/>*
 
@@ -213,6 +225,24 @@ let str = `
 ° ඬ⃟👾 _${usedPrefix}loli_
 ° ඬ⃟👾 _${usedPrefix}navidad_
 ° ඬ⃟👾 _${usedPrefix}ppcouple_
+° ඬ⃟👾 _${usedPrefix}wpmontaña_
+° ඬ⃟👾 _${usedPrefix}pubg_
+° ඬ⃟👾 _${usedPrefix}wpgaming_
+° ඬ⃟👾 _${usedPrefix}wpaesthetic_
+° ඬ⃟👾 _${usedPrefix}wpaesthetic2_
+° ඬ⃟👾 _${usedPrefix}wprandom_
+° ඬ⃟👾 _${usedPrefix}wallhp_
+° ඬ⃟👾 _${usedPrefix}wpvehiculo_
+° ඬ⃟👾 _${usedPrefix}wpmoto_
+° ඬ⃟👾 _${usedPrefix}coffee_
+° ඬ⃟👾 _${usedPrefix}pentol_
+° ඬ⃟👾 _${usedPrefix}caricatura_
+° ඬ⃟👾 _${usedPrefix}ciberespacio_
+° ඬ⃟👾 _${usedPrefix}technology_
+° ඬ⃟👾 _${usedPrefix}doraemon_
+° ඬ⃟👾 _${usedPrefix}hacker_
+° ඬ⃟👾 _${usedPrefix}planeta_
+° ඬ⃟👾 _${usedPrefix}randomprofile_
 ° ඬ⃟👾 _${usedPrefix}neko_
 ° ඬ⃟👾 _${usedPrefix}waifu_
 ° ඬ⃟👾 _${usedPrefix}akira_
@@ -309,6 +339,7 @@ let str = `
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
+° ඬ⃟🔍 _${usedPrefix}stickersearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
@@ -372,6 +403,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *<ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊/>*
 
 ° ඬ⃟🛠️ _${usedPrefix}afk *<motivo>*_
+° ඬ⃟🛠️ _${usedPrefix}ocr *<responde a imagen>*_
 ° ඬ⃟🛠️ _${usedPrefix}acortar *<enlace / link / url>*_
 ° ඬ⃟🛠️ _${usedPrefix}calc *<operacion math>*_
 ° ඬ⃟🛠️ _${usedPrefix}del *<respondre a mensaje del Bot>*_
@@ -404,11 +436,18 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👽 _${usedPrefix}s *<responder a imagen o video>*_
 ° ඬ⃟👽 _${usedPrefix}s *<enlace / link / url>*_
 ° ඬ⃟👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+° ඬ⃟👽 _${usedPrefix}scircle *<responder a imagen>*_
+° ඬ⃟👽 _${usedPrefix}sremovebg *<responder a imagen>*_
 ° ඬ⃟👽 _${usedPrefix}semoji *<tipo> <emoji>*_
 ° ඬ⃟👽 _${usedPrefix}attp *<texto>*_
+° ඬ⃟👽 _${usedPrefix}attp2 *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}ttp *<texto>*_
+° ඬ⃟👽 _${usedPrefix}ttp2 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}ttp3 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}ttp4 *<texto>*_
+° ඬ⃟👽 _${usedPrefix}ttp5 *<texto>*_
 ° ඬ⃟👽 _${usedPrefix}pat *<@tag>*_
-° ඬ⃟👽 _${usedPrefix}slap *<@tag>_
+° ඬ⃟👽 _${usedPrefix}slap *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}kiss *<@tag>*_
 ° ඬ⃟👽 _${usedPrefix}dado_
 ° ඬ⃟👽 _${usedPrefix}wm *<packname> <author>*_
@@ -443,8 +482,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', [
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
+conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '
 ['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
 ['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
 ], m,)
