@@ -1,5 +1,5 @@
 let handler = async(m, { conn, text, args, usedPrefix, command }) => {
-if (!text) throw `*[❗] 𝗜𝗡𝗚𝗥𝗘𝗦𝗘 𝗨𝗡 𝗧𝗘𝗫𝗧𝗢*\n\n*—◉ 𝗣𝗢𝗥 𝗘𝗝𝗘𝗠𝗣𝗟𝗢:*\n*◉ ${usedPrefix + command} 𝙗𝙤𝙩-𝙄𝙣𝙨𝙖𝙣𝙤*`
+if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*◉ ${usedPrefix + command} Mystic-Bot*`
 let teks = encodeURI(text)
 
 if (command == 'attp') {
